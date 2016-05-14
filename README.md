@@ -19,10 +19,12 @@ In webpack.config.js:
     module: {
         preLoaders: [{
           test: /\.(html|css)$/,
-          loader: "plonetheme-preloader"
+          loader: "plonetheme-preloader?themepath=src/my-theme"
         }],
     ...
 ```
+
+The theme path is relative to the app root.
 
 ## License
 

@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/pyrenees/plonetheme-preloader/issues"
   },
-  "homepage": "https://github.com/pyrenees/plonetheme-preloader"
+  "homepage": "https://github.com/pyrenees/plonetheme-preloader",
+  "dependencies": {
+    "loader-utils": "^0.2.15"
+  }
 }
