@@ -1,0 +1,25 @@
+{
+  "name": "plonetheme-preloader",
+  "version": "0.0.0",
+  "description": "Plone theme preloader module for webpack",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pyrenees/plonetheme-preloader.git"
+  },
+  "keywords": [
+    "plone",
+    "webpack"
+  ],
+  "author": "Eric BREHAULT",
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://opensource.org/licenses/BSD-3-Clause"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/pyrenees/plonetheme-preloader/issues"
+  },
+  "homepage": "https://github.com/pyrenees/plonetheme-preloader"
+}
