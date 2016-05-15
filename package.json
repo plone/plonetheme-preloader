@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/pyrenees/plonetheme-preloader",
   "dependencies": {
-    "loader-utils": "^0.2.15"
+    "loader-utils": "^0.2.15",
+    "request": "^2.72.0"
   }
 }
