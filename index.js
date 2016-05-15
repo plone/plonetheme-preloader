@@ -13,14 +13,12 @@ module.exports.pitch = function(remainingRequest, precedingRequest, data) {
         return
     }
     var path = this.resourcePath
-    console.log("LOADING " + path);
-    var newpath = path.replace('/src/app/theme/', '/' + query.themepath + '/');
-    console.log("TRYING " + newpath);
+    var src_root = path.lastIndexOf('/src/');
+    var newpath = path.substring(0, src_root + 1) + query.themepath + path.substring(src_root + 4);
+    //console.log("TRYING " + newpath);
     fs.readFile(newpath, 'utf8', function (err, newcontent) {
-        if(err) {
-            console.log("KEEP ORIGINAL " + path);
-        } else {
-            console.log("OVERRIDE WITH " + newpath);
+        if(!err) {
+            console.log("OVERRIDE " + path + " WITH " + newpath);
             data.override = newcontent;
         }
     });
