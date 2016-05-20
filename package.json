@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pyrenees/plonetheme-preloader.git"
+    "url": "https://github.com/plone/plonetheme-preloader.git"
   },
   "keywords": [
     "plone",
@@ -19,9 +19,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/pyrenees/plonetheme-preloader/issues"
+    "url": "https://github.com/plone/plonetheme-preloader/issues"
   },
-  "homepage": "https://github.com/pyrenees/plonetheme-preloader",
+  "homepage": "https://github.com/plone/plonetheme-preloader",
   "dependencies": {
     "loader-utils": "^0.2.15",
     "request": "^2.72.0"
